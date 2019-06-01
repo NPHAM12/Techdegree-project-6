@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "A webpage that displays random quotes and colors each time a button is clicked manually, or quotes and colors are changed automatically after a certain amount of time passes.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://npham12.github.io/Techdegree-project-1/",
+      "github_link": "https://github.com/NPHAM12/Techdegree-project-1",
+      "image_urls": ["/static/img/project1_550x550.png","/static/img/project1_1.png", "/static/img/project1_2.png", "/static/img/project1_3.png"]
+    },
+
+    {
+      "id": 1,
+      "project_name": "List pagination and filtering",
+      "description": "A webpage that contains a long list by employing JavaScript to dynamically divide the list into pages to make it easier for the user to find information and read the page.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://npham12.github.io/Techdegree-project-2/",
+      "github_link": "https://github.com/NPHAM12/Techdegree-project-2",
+      "image_urls": ["/static/img/project2_550x550.png", "/static/img/project2_1.png", "/static/img/project2_2.png", "/static/img/project2_3.png"]
+    },
+
+    {
+      "id": 2,
+      "project_name": "Interactive form",
+      "description": " A webpage that validates user input and providing helpful error messages when the user enters invalid information into the form fields",
+      "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
+      "live_link": "https://npham12.github.io/Techdegree-Project-3/",
+      "github_link": "https://github.com/NPHAM12/Techdegree-Project-3",
+      "image_urls": ["/static/img/project3_550x550.png", "/static/img/project3_1.png", "/static/img/project3_2.png", "/static/img/project3_3.png"]
+    },
+
+    {
+      "id": 3,
+      "project_name": "Phrase Hunter - A word guessing game",
+      "description": "Game that a player can guess letter(s) of a random phrase",
+      "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
+      "live_link": "https://npham12.github.io/Techdegree-Project-4/",
+      "github_link": "https://github.com/NPHAM12/Techdegree-Project-4",
+      "image_urls": ["/static/img/project4_550x550.png", "/static/img/project4_1.png", "/static/img/project4_2.png", "/static/img/project4_3.png"]
+    },
+
+    {
+      "id": 4,
+      "project_name": "Public Api Request",
+      "description": "A Webpage that will appear 12 users(image, email, and city) randomly with fetching API requests from Randomuser.me New random employee information displays each time the page refreshes",
+      "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
+      "live_link": "https://npham12.github.io/Techdegree-Project-5/",
+      "github_link": "https://github.com/NPHAM12/Techdegree-Project-5",
+      "image_urls": ["/static/img/project5_550x550.png", "/static/img/project5_1.png", "/static/img/project5_2.png", "/static/img/project5_3.png"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1 #{proj.project_name}
+
+        p.lead.text-light #{proj.description}
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h5 Technologies
+
+        ul
+        each skill in proj.technologies
+            li <h6> #{skill}
+
+        a.button.expanded(href= proj.live_link, target="_blank") <strong> Live Demo
+        a.button.expanded(href= proj.github_link, target="_blank") <strong>GitHub Repo
+
+    //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential emplyers will like to see.
+    each pic in proj.image_urls
+      img.image(src= pic)

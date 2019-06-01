@@ -1,0 +1,28 @@
+extends layout.pug
+
+block content
+  article.grid-container.portfolio-intro
+    div
+
+      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together!
+      h1 Take some minutes to see my Portfolio
+
+      //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc.
+      p.lead.text-light
+        | Here is the list of my Team Treehouse projects.<br>They're coded in JS, jQuery, Ajax, HTML, and CSS
+
+  article.grid-container.portfolio-index
+
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.
+
+      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
+
+      //- Here's what the Pug for each project example should look like.
+
+      each project in listOfProjects
+        .cell
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src = project.image_urls[0] alt=`project.project_name`)
+            h5=project.project_name
