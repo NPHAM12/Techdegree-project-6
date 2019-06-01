@@ -4,10 +4,10 @@ const app = express();
 // localhost: port 4000
 const port = 4000;
 
-//set static file to serve the static files located in the public folder
+//set static file to serve the static files located in the public folder such as CSS, or Images
 app.use('/static',express.static('public'));
 
-//Middleware: set which template (pug) view engine uses
+//Middleware: set which template (pug) for view engine
 app.set('view engine', 'pug');
 
 //Imports main page Route
@@ -35,6 +35,5 @@ app.use((err, req, res, next) => {
 });
 
 // listen on port 4000
-app.listen(port, ()=>{
-  console.log(`Running on local hostport: ${port}`);
+app.listen(port, ()=>{console.log(`Running on local hostport: ${port}`);
 });
