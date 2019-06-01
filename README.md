@@ -1,5 +1,5 @@
 # Techdegree-project-6
-# Meeting Expectation
+# Meet Expectations
 # Billy Pham
 
 Using Node.js, Express, and Pug template to create a portfolio site to showcase the great projects I've built.
